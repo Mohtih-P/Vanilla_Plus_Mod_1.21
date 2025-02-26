@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:emerald"
+    },
+    "$": {
+      "item": "minecraft:diamond"
+    },
+    "*": {
+      "item": "minecraft:gold_block"
+    },
+    "!": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "pattern": [
+    "#$#",
+    "*!*",
+    " * "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:totem_of_undying"
+  }
+}

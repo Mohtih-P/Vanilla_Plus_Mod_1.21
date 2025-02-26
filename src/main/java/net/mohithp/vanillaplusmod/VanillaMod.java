@@ -2,6 +2,8 @@ package net.mohithp.vanillaplusmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mohithp.vanillaplusmod.item.ModItemGroups;
+import net.mohithp.vanillaplusmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,7 @@ public class VanillaMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }

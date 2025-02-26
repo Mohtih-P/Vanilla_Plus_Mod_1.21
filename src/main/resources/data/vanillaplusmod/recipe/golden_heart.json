@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillaplusmod:heart"
+    },
+    "$": {
+      "item": "minecraft:golden_apple"
+    },
+    "*": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "*$*",
+    "$#$",
+    "*$*"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillaplusmod:golden_heart"
+  }
+}

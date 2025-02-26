@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "vanillaplusmod:heart"
+    },
+    "$": {
+      "item": "minecraft:diamond"
+    },
+    "*": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "pattern": [
+    "*$*",
+    "$#$",
+    "*$*"
+  ],
+  "result": {
+    "count": 1,
+    "id": "vanillaplusmod:diamond_heart"
+  }
+}
