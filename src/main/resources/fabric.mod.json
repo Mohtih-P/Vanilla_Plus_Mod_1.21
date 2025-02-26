@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vanillaplusmod",
+	"version": "${version}",
+	"name": "Vanilla+ Mod",
+	"description": "Discover a seamless Vanilla+ enhancement with this Minecraft mod, designed to enrich survival and creativity. Craft additional health containers using Heart Crystals, forge customizable Totems of Undying with unique effects, and unlock new utilities like portable storage satchels or enchanted tools that blend perfectly with vanilla mechanics. Balanced recipes ensure progression feels rewarding, not overpowered, while new decorative blocks and quality-of-life items expand your building options. Perfect for players seeking deeper customization without straying from Minecraft’s core charm. Compatible with most mods, it’s ideal for refining your world with subtle, immersive additions. Elevate your gameplay—naturally!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/vanillaplusmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mohithp.vanillaplusmod.VanillaMod"
+		],
+		"fabric-datagen": [
+			"net.mohithp.vanillaplusmod.VanillaModDataGenerator"
+		],
+		"client": [
+			"net.mohithp.vanillaplusmod.VanillaModClient"
+		]
+	},
+	"mixins": [
+		"vanillaplusmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
